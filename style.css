@@ -15,7 +15,7 @@ a {
 
 nav {
   background-color: #046e8f;
-  height: 71px; 
+  height: 71px;
 }
 
 nav ul {
@@ -37,3 +37,98 @@ nav a {
 nav a:hover {
   background-color: #0090c1;
 }
+
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#about h1 {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+
+#about p {
+  font-size: 32px;
+}
+
+section h2{
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+
+#projects {
+  background-color: #38aecc;
+  padding: 64px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+.project-link {
+  max-width: 300px;
+  background-color: #183446;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 12px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-title {
+  margin: 16px 0;
+}
+
+
+.button{
+  background-color: #183446;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button:hover,
+.project-link:hover {
+  background-color: #ca1916;
+}
+
+#show_all {
+  margin-top: 48px;
+}
+#contact{
+	background-color: #183446;
+  padding: 64px;
+  text-align: center;
+}
+.list {
+	display: inline-block;
+	padding: 12px;
+	font-size: 24px;
+
+}
+.list a {
+	text-decoration: none;
+
+}
+ footer {
+	 text-align: center;
+	 padding: 32px;
+	 border-top: 4px solid red;
+
+ }
+ footer div {
+	 display: inline-block;
+	 padding: 16px 24px;
+ }
